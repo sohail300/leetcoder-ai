@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "LeetCode Whisper",
+  "name": "Leetcoder AI",
   "version": "1.0.0",
-  "description": "Chrome extension providing AI-driven hints on LeetCode problems. Get step-by-step help to boost problem-solving skills effectively.",
+  "description": "Chrome Extension that helps you solve Leetcode problems using AI.",
   "permissions": ["storage"],
   "action": {
     "default_popup": "index.html"
