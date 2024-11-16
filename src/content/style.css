@@ -3,3 +3,28 @@
   bottom: 30px;
   right: 30px;
 }
+
+Custom scrollbar styles .scrollbar-thin {
+  scrollbar-color: #4b5563 #1f2937; /* Thumb and track colors */
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  height: 4px; /* Height of the scrollbar */
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: #1f2937; /* Track color */
+  border-radius: 8px; /* Rounded edges for the track */
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: #4b5563; /* Thumb color */
+  border-radius: 8px; /* Rounded edges for the thumb */
+  border: 1px solid transparent; /* Adds space around the thumb */
+  background-clip: content-box; /* Ensures the border is visible */
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background-color: #6b7280; /* Lighter color on hover */
+}
